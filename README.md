@@ -2,6 +2,8 @@
 Edited version of OmniAnomaly that allows for epoch-to-epoch testing
 
 # Installation
+This code was run using Python 3.6.9 on Ubuntu 18.04 'Bionic Beaver'. If you are having trouble with installation, try using these versions.
+
 1. Download repository:
 ```
 git clone https://github.com/cse-msstate/OmniAnomaly_IDS_2021
@@ -15,7 +17,6 @@ git clone https://github.com/cse-msstate/OmniAnomaly_IDS_2021
 ```
 pip3 install -r requirements.txt
 ```
-   - Python 3.6 works for this code. Not sure if Python 3.8 works
    - add or remove the '3' as necessary
    - Use sudo if needed
    - Recommended to use a virtual environment
@@ -31,3 +32,5 @@ python3 main.py nslkdd_100 0
 ```
 - args[1] = name of dataset without '.csv'
 - args[2] = fold number to be tested 0,1,2, or 3
+
+Results should be in the 'results/' directory
